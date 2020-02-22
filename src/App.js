@@ -7,6 +7,7 @@ import axios from 'axios'
 import WelcomePage from './components/WelcomePage'
 import CharacterList from './components/CharacterList'
 import LocationList from './components/LocationsList'
+import SearchForm from './components/SearchForm'
 
 const Nav = styled.div`
   padding: 20px
@@ -28,7 +29,7 @@ export default function App() {
       <Header />
 
       <Route exact path="/" component={WelcomePage} />
-      <Route path="/characters" component={CharacterList} />
+      <Route path="/characters" component={SearchForm} />
       <Route path="/locations" component={LocationList} />
     </main>
   );
