@@ -29,6 +29,8 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 > Answer:
 
+The benefits of client side router are numerous, but the biggest ones are that the user will experience no unnecessary page refreshes, making the end experience a lot smoother, and even faster.
+
 ## Project Set Up
 
 Follow these steps to set up and work on your project:
